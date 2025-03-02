@@ -1,7 +1,7 @@
 "use client";
 
 import HeroParallaxDemo from "@/components/hero-parallax-demo";
-import ImageTextRevealDemo from "@/components/image-text-reveal-demo";
+
 
 export default function Home() {
   return (

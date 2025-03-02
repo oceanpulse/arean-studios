@@ -1,15 +1,16 @@
 "use client";
 import React from "react";
 import { SparklesCore } from "./ui/sparkles";
+import FloatingDockDemo from "./floating-dock-demo";
 
 
 export const Footer = () => {
   return (
     <footer className="w-full">
       {/* Using the same height as in the original demo */}
-      <div className="h-[18rem] w-full bg-black flex flex-col items-center justify-center overflow-hidden rounded-md">
-      <h1 className="md:text-7xl text-3xl lg:text-9xl font-bold text-center text-neutral-400 relative z-20">clint edward</h1>
-      <div className="w-[40rem] h-40 relative">
+      <div className="h-[18rem] w-full bg-black flex flex-col items-center justify-center overflow-hidden rounded-md pt-6">
+      <FloatingDockDemo/>
+      <div className="w-[40rem] h-42 relative">
         {/* Gradients */}
         <div className="absolute inset-x-20 top-0 bg-gradient-to-r from-transparent via-indigo-500 to-transparent h-[2px] w-3/4 blur-sm" />
         <div className="absolute inset-x-20 top-0 bg-gradient-to-r from-transparent via-indigo-500 to-transparent h-px w-3/4" />

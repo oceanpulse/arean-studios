@@ -91,7 +91,7 @@ export const ImageTextReveal = ({
   const rotateDeg = (sliderXPercent - 50) * 0.1;
 
   return (
-    <div className="pl-20">
+    <div className="pl-10 ">
       {children}
 
       {/* Text Reveal Section - Moved to appear above the image comparison */}

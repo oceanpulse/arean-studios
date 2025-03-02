@@ -6,8 +6,8 @@ export default function CompareDemo() {
   return (
     <div className="p-4 rounded-3xl dark:bg-neutral-900  dark:border-neutral-800 px-4">
       <Compare
-        firstImage={photo1.src}
-        secondImage={photo2.src}
+        firstImage={photo2.src}
+        secondImage={photo1.src}
         firstImageClassName="object-cover object-left-top"
         secondImageClassname="object-cover object-left-top"
         className=""
