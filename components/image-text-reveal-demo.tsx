@@ -12,7 +12,7 @@ export default function ImageTextRevealDemo() {
     <div className="flex items-center justify-center w-full h-full">
       <ImageTextReveal
         text="I can Web2"
-        revealText="I can Web3"
+        revealText=" I can Web3"
         firstImage={photo2.src}
         secondImage={photo1.src}
         firstImageClassName="object-cover object-center h-full w-full pr-20"
