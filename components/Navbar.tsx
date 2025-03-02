@@ -2,7 +2,7 @@
 
 import React from "react";
 import { FloatingNav } from "@/components/ui/floating-navbar";
-import { Home, Info, Mail, CreditCard } from "lucide-react"; // Changed Settings to CreditCard for ERC20
+import { Home, Info, Mail, Network } from "lucide-react"; 
 
 export function Navbar() {
   const navItems = [
@@ -24,6 +24,6 @@ export function Navbar() {
   ];
 
   return (
-    <FloatingNav navItems={navItems} />
+    <FloatingNav navItems={navItems} buttonLink="/erc20"/>
   );
 }

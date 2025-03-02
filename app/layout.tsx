@@ -4,7 +4,7 @@ import "./globals.css";
 import { Toaster } from "sonner"; // Imported Toaster from sonner as toast component is deprecated
 
 
-import { Navbar } from "@/components/Nabar";
+import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 
 
