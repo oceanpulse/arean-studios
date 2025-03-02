@@ -2,7 +2,7 @@
 const nextConfig = {
   /* config options here */
   images: {
-    domains: ['aceternity.com'],
+    domains: ['https://assessment-arena.vercel.app/'],
   },
 };
 
