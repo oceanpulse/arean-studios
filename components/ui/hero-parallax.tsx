@@ -103,7 +103,7 @@ export const HeroParallax = ({
 
 export const Header = () => {
   return (
-    <div className="max-w-6xl relative mx-auto py-20 md:py-40 px-4 left-0 top-0">
+    <div className="max-w-6xl relative mx-auto md:py-40 px-4 left-0 top-0 md:pr-20 lg:pr-40">
       <h1 className="text-2xl md:text-7xl font-bold dark:text-white max-w-3xl">
         Hero Component <br /> Using Nextjs & Typescript
       </h1>
