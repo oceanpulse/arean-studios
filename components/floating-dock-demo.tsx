@@ -24,7 +24,7 @@ export default function FloatingDockDemo() {
     {
       title: "LinkedIn",
       icon: <IconBrandLinkedin className="h-full w-full text-neutral-500 dark:text-neutral-300" />,
-      href: "www.linkedin.com/in/clint-edward-cloete-685004108",
+      href: "https://www.linkedin.com/in/clint-edward-cloete-685004108/",
     },
 
     {
