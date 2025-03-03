@@ -13,12 +13,18 @@ export default function WobbleCardDemo() {
       >
         
         <div className="max-w">
-          <h2 className="text-left text-balance text-base md:text-xl lg:text-3xl font-semibold tracking-[-0.015em] text-white">
+          <h2 className="text-left text-balance text-base md:text-xl lg:text-3xl font-semibold  text-white">
           Tech Stack Analysis
           </h2>
-          <p className="mt-4 text-left  text-base/6 text-neutral-200">
-          This project is built on a modern frontend stack centered around Next.js with its App Router architecture, utilizing React for component structure and TypeScript for type safety. The UI is styled with Tailwind CSS, allowing for responsive designs across various screen sizes. The codebase features custom interactive components such as WobbleCard (providing 3D tilt effects) and ImageTextReveal (offering before/after image comparison with sliding functionality). Next.js Image components are employed for optimized image loading from the public directory. The architecture clearly separates client-side components (marked with "use client" directives) from server components, following Next.js best practices. Overall, this appears to be a focused UI component library demonstrating advanced frontend techniques for creating engaging user interfaces.
-          </p>
+        
+          <p className="mt-4 text-left text-base/6 text-neutral-200 ">
+          <span className="font-bold light:text-neutral-400">
+         
+          </span>{" "}
+          This project is built on a modern frontend stack with Next.js, React, and TypeScript, ensuring a scalable and type-safe foundation. Next.js powers server-side rendering, static generation, and API routes, while React structures the UI with key files like page.tsx and layout.tsx. TypeScript enhances development with strict type checking (tsconfig.json). Styling is managed with Tailwind CSS (tailwind.config.ts, globals.css), and code quality is enforced with ESLint. The project includes custom interactive components (WobbleCard, ImageTextReveal), Google Fonts for typography, and sonner for toast notifications. Dependencies are managed via npm, with deployment optimized for Vercel. Custom commands and models in config.json further enhance flexibility, making this stack a solid foundation for modern, interactive web applications.
+        </p>
+       
+     
         </div>
        
       </WobbleCard>
